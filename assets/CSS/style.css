@@ -15,7 +15,7 @@ header ul {
    padding-right: 10%;
 }
 
-/* .btn {
+.btn {
     outline: none;
     border: none;
     display: inline-block;
@@ -33,10 +33,10 @@ header ul {
     border: none;
     display: inline-block;
     padding: 10px 15px;
-    background: gray;
+    background: orange;
     font-size: 2.2rem;
     border-radius: 12px;
     position: relative;
     top: -3px;
-    box-shadow: 0 3px gray;
-  } */
+    box-shadow: 0 3px cyan;
+  }

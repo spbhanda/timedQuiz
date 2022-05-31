@@ -1,3 +1,14 @@
+// Query selectors:
+var title = document.querySelector("#title");
+var highScore = document.querySelector("#high-score");
+var timer = document.querySelector("#time-left");
+var startButton = document.querySelector("#start-btn");
+var question = document.querySelector("#question");
+const button1 = document.getElementById("option1");
+const button2 = document.getElementById("option2");
+const button3 = document.getElementById("option3");
+const button4 = document.getElementById("option4");
+
 // Quiz questions:
 const questions = [
    {
@@ -12,3 +23,4 @@ const questions = [
       answer: "2. <script>",
    },
 ];
+

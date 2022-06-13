@@ -1,6 +1,4 @@
-# timed-coding-quiz
-
-## Project Title:
+## Project Title: Coding Quiz
 
 timed-coding-quiz - Search Engine Optimization - coding quiz - Software Development - HTML - CSS - javascript
 

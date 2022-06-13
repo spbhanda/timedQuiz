@@ -16,7 +16,7 @@ When users click on 'Start Quiz' button, it will prompt to quiz questions and th
 
  https://spbhanda.github.io/timedQuiz/
 
-## Webpage Snapshot:
+## Webpage Snapshot: First page
 
 ![](https://github.com/spbhanda/timedQuiz/blob/main/assets/Images/firstPage.JPG)
 

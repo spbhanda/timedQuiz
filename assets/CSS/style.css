@@ -1,42 +1,93 @@
 * {
    box-sizing: border-box;
+   font-size: 62.5%;
 }
 
 body {
    width: 80%;
-   margin-left: 10%;
+
+   align-items: center;
    border-style: solid double;
+   margin-left: 10%;
 }
-header ul {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   margin: 10px;
-   padding-right: 10%;
+#view-high-scores {
+   font-size: 2rem;
+}
+#timer {
+   font-size: 2rem;
 }
 
+h1 {
+   font-size: 5.4rem;
+   margin-bottom: 5rem;
+}
+
+h2 {
+   font-size: 2rem;
+   margin-bottom: 4rem;
+}
+
+.hide {
+   display: none;
+}
+
+.container {
+   width: 100vw;
+   height: 100vw;
+   justify-content: center;
+   align-items: center;
+   max-width: 80rem;
+   margin: 0 auto;
+}
+
+#start-btn {
+   font-size: 2.5rem;
+   padding: 1rem;
+   width: 25rem;
+   color: white;
+   background-color: blue;
+   align-items: center;
+}
 .btn {
-    outline: none;
-    border: none;
-    display: inline-block;
-    padding: 10px 15px;
-    background:cyan;
-    font-size: 2.2rem;
-    border-radius: 12px;
-    position: relative;
-    top: -3px;
-    box-shadow: 0 3px gray;
-  }
+   background-color: orange;
+   margin: 1rem 0;
+   font-size: 2rem;
+}
 
-  .quiz-btn {
-    outline: none;
-    border: none;
-    display: inline-block;
-    padding: 10px 15px;
-    background: orange;
-    font-size: 2.2rem;
-    border-radius: 12px;
-    position: relative;
-    top: -3px;
-    box-shadow: 0 3px cyan;
-  }
+.btn:hover {
+   cursor: pointer;
+   background-color: pink;
+}
+
+.btn[disabled]:hover {
+   cursor: not-allowed;
+}
+
+.choice-container {
+   font-size: 25rem;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+   /* background: purple; */
+   width: 75%;
+   min-width: 75rem;
+}
+#checkAnswer {
+   font-size: 3rem;
+   display: flex;
+   margin-bottom: 1rem;
+   width: 100%;
+   min-width: 75rem;
+   text-align: center;
+}
+
+.choce-item-id {
+   padding: 0 3rem;
+}
+#finalScore {
+   font-size: 2rem;
+}
+
+#listOfHighScores {
+   font-size: 3rem;
+}

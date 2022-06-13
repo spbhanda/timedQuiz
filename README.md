@@ -28,5 +28,5 @@ THEN I can save my initials and score
 
 ## Webpage Snapshot:
 
-![](https://github.com/spbhanda/generatePassword/blob/main/Assets/03-javascript-homework-demo.png)
+![](https://github.com/spbhanda/timedQuiz/blob/main/assets/Images/firstPage.JPG)
 
